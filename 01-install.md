@@ -37,7 +37,9 @@ import sklearn
 
 Did you install Python 2 or 3? Why? How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Installed Python 3 on Linux VM. Installed on Mac 10.11.2 after reading documentation that it could live side-by-side with Python 2
+
+python --version #to check version
 
 ---
 
