@@ -39,6 +39,8 @@ Did you install Python 2 or 3? Why? How can you check the version of Python inst
 
 Installed Python 3 on Linux VM. Installed on Mac 10.11.2 after reading documentation that it could live side-by-side with Python 2
 
+Edited $PATH in .zshrc
+
 python --version #to check version
 
 ---
