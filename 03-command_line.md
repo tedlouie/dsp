@@ -21,7 +21,10 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls: list directory contents
+-a: display hidden files/directories
+-l: long format
+-h: display friendly sizes
 
 ---
 
@@ -30,7 +33,7 @@ What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+parses output from one command to pipe into another as arguments. usually used in conjunction with find utility
 
 ---
 
