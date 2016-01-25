@@ -12,7 +12,8 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+similar: types of arrays
+different: tuples are immutable, so they will work as dictionary keys
 
 ---
 
@@ -20,7 +21,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+set is a type of list, where all the values are unique
 
 ---
 
@@ -28,7 +29,7 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+anonymous function, not named
 
 ---
 
@@ -75,6 +76,44 @@ Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
 ###Q6. Strings
 Edit the 7 functions in [q6_strings.py](python/q6_strings.py)
+
+```
+def donuts(count):
+    print 'Number of donuts: ',
+    if count < 10:
+        print count
+    else:
+        print 'many'
+
+def both_ends(s):
+    if len(s) < 2:
+        print 'too short'
+    else:
+        print s[:2] + s[-2:]
+
+def fix_start(s):
+    print s[0],
+    for letter in s[1:]:
+        if letter != s[0]:
+            print letter,
+        else:
+            print '*',
+    print '\n'
+    
+def mix_up(a, b):
+    print b[:2] + a[2:] + ' ' + a[:2] + b[2:]
+    
+def verbing(s):
+    if len(s) <= 3:
+        print s
+    elif s[-3:] == 'ing':
+        print s + 'ly'
+    else:
+        print s + 'ing'
+
+
+```
+
 
 ---
 
